@@ -4,10 +4,10 @@ import Home from "./components/Home/Home";
 
 function App() {
   return (
-    <div className="App img-fluid">
+    <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route>
+          <Route path="/">
             <Home></Home>
           </Route>
         </Switch>
