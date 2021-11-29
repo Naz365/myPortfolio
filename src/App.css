@@ -1,7 +1,9 @@
 .App {
-  text-align: center;
+  background-image: url("https://i.ibb.co/8bvP2YT/photo-2021-11-29-20-10-13.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
