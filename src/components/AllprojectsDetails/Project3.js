@@ -81,6 +81,22 @@ const Project3 = () => {
                 <span className="me-2 mb-1 p-2 badge bg-success">MongoDB</span>
               </h5>
             </div>
+            <button type="button" className="btn btn-outline-primary ">
+              <a
+                className="nav-link text-light"
+                href="https://modest-rosalind-faa8a6.netlify.app/"
+              >
+                Live site
+              </a>
+            </button>
+            <button type="button" className="btn btn-outline-primary ">
+              <a
+                className="nav-link text-light"
+                href="https://github.com/Naz365/driving-school"
+              >
+                Source Code
+              </a>
+            </button>
           </div>
         </div>
         <div className="text-center m-2">
