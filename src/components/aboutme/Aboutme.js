@@ -2,17 +2,18 @@ import React from "react";
 import "./Aboutme.css";
 const Aboutme = () => {
   return (
-    <div className="container text-light" id="about">
+    <div className="container bg-dark text-light p-4" id="about">
       <div class="row">
-        <div class="col-md-4">
+        <h1 className="text-center p-3 m-2">About me</h1>
+        <div class="col-md-6">
           <img
-            className="img-fluid"
-            src="https://i.ibb.co/zh8wz29/Webp-net-resizeimage.jpg"
+            className="ms-5 img-fluid  rounded-3"
+            src="https://i.ibb.co/SffTqkZ/Naz365-1.jpg"
             alt=""
             srcset=""
           />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
           <p className="text-wrap">
             {/* style={{ width: "6rem" }} */}
             <strong>Mohammad Nazmul Hossain </strong>
