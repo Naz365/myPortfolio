@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="container-fluid " id="projects">
+    <div className="container-fluid bg-dark" id="projects">
+      <h2 className="text-center text-light mb-5">
+        Some of my projects I have done before
+      </h2>
       <div className="row row-cols-1 row-cols-md-3 g-4 ">
         <div className="col ">
           <div className="card h-100">
@@ -28,6 +32,11 @@ const Projects = () => {
                 >
                   Live Site
                 </a>
+              </button>
+              <button type="button" class="mx-2 btn btn-outline-primary">
+                <Link className="text-decoration-none text-dark" to="/project1">
+                  Project details
+                </Link>
               </button>
             </div>
           </div>
@@ -57,6 +66,11 @@ const Projects = () => {
                   Live Site
                 </a>
               </button>
+              <button type="button" class=" mx-2 btn btn-outline-primary">
+                <Link className="text-decoration-none text-dark" to="/project2">
+                  Project details
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -82,6 +96,11 @@ const Projects = () => {
                 >
                   Live Site
                 </a>
+              </button>
+              <button type="button" class="btn btn-outline-primary mx-2">
+                <Link className="text-decoration-none text-dark" to="/project3">
+                  Project details
+                </Link>
               </button>
             </div>
           </div>
